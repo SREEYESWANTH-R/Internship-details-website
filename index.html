@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognifyz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!------------------------Navigation------------------------->
+    <div class="navigation">
+        <div class="logo">
+            <img src="images/cogni-logo.png" alt="">
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aboutus">AboutUs</a></li>
+                <li><a href="#Courses">Courses</a></li>
+                <li><a href="internship.html">Internships</a></li>
+                <li><a href="#contactus"><button>Contact Us</button></a></li>
+            </ul>
+        </div>   
+    </div>
+<!------------------------Intro------------------------------->
+    <div class="intro-section">
+        <div class="title">
+            <h1>Cognifyz Technologies</h1>
+            <p>Where Data Meets Intelligence<br>And improve through Internships</p>
+            <button>APPLY NOW</button>
+        </div>
+        <div class="title-img">
+            <img src="images/introimg.jpeg" alt="">
+        </div>
+    </div>
+<!-------------------------About us------------------------->
+    <div class="aboutus" id="aboutus">
+        <h1>About Us</h1>
+        <p>"Cognifyz is a data-driven technology firm that provides tailored training and development solutions. As a leader in the industry, we deliver cutting-edge programs designed to equip individuals and organizations with the skills and knowledge required to succeed in today's dynamic business landscape." “Cognifyz ! ”</p>
+    </div>
+<!------------------------Contact us------------------------>
+    <div class="contact" id="contactus">
+        <h1>Contact Us</h1>
+        <div class="contact-details">
+           <form onSubmit="sendEmail(); reset(); return false;"> 
+                <input class="form-control" type="text" placeholder="Your Name">
+                <input class="form-control" type="number" placeholder="Mobile">
+                <input class="form-control" id="mail" type="email" placeholder="Email">
+                <textarea class="form-control tx" placeholder="Enter Your Message"></textarea>
+                <button class=".form-button">Send</button>
+           </form> 
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-text">
+            <img src="images/cogni-logo.png" alt="">
+            <p>"Cognifyz is a data-driven technology firm that provides tailored training and development solutions."
+                “Cognifyz ! ”</p>
+        </div>
+        <div class="footer-contact">
+            <h5>Contact Us</h5>
+            <ul>
+                <li><ion-icon name="location-outline" class="icon"></ion-icon><a href="">Nagpur</a></li>
+                <li><ion-icon name="mail-unread-outline" class="icon"></ion-icon><a href="">cognifyztechnologies@gmail.com</a></li>
+                <li><ion-icon name="logo-linkedin" class="icon"></ion-icon><a href="">Cognifyz Technologies</a></li>
+            </ul>
+
+        </div>
+    </div> 
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>  

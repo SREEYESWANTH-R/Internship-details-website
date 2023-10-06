@@ -1,0 +1,399 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inclusive+Sans:ital@0;1&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,400&family=Permanent+Marker&family=Phudu:wght@300&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,800;1,100;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&family=Rubik+Iso&family=Teko:wght@300&family=Tilt+Prism&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Young+Serif&family=Ysabeau+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,400&family=Permanent+Marker&family=Phudu:wght@300&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,800;1,100;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&family=Rubik+Iso&family=Teko:wght@300&family=Tilt+Prism&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Young+Serif&family=Ysabeau+SC:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    padding:0px 20px 10px 0px;
+    
+}
+
+.logo img{
+    width:200px;
+    height:70px;
+    padding: 10px;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.navbar ul li a{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color:#D367CD;
+}
+
+.navbar ul li button{
+    padding:15px;
+    border-radius: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border:none;
+    color:white;
+    background-color:rgba(134, 65, 130, 0.7);
+    transition: all 0.3s;
+}
+
+.navbar ul li button:hover{
+    transform: scale(1.1);
+    background-color:rgba(134, 65, 130, 1);
+}
+
+.intro-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.intro-section .title h1{
+    color: #D367CD;
+    font-family: Bebas Neue;
+    margin-bottom: 10px;
+}
+
+.intro-section .title p{
+    font-size: 23px;
+    margin-bottom: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.intro-section .title button{
+    padding:20px 35px;
+    border-radius: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border:none;
+    color:white;
+    background-color:rgba(134, 65, 130, 1);
+    box-shadow: 0px 0px 20px 0px rgba(134, 65, 130, 1);
+    transition: all 0.3s;
+}
+
+.intro-section .title button:hover{
+    transform: scale(1.1);
+    box-shadow:none;
+}
+
+.intro-section .title-img img{
+    width:450px;
+    height: 350px;
+    margin-top: px;
+    border-radius: 15px;
+}
+
+.aboutus{
+    text-align: center; 
+    margin: 20px 0px;
+    padding:0 100px 20px 100px;
+    
+}
+
+.aboutus h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    font-family: Bebas Neue;
+    font-size: 68px;
+    
+}
+
+.aboutus p{
+    font-family: Mulish;
+}
+/*--------------Contact Us -------------------------- */
+.contact{
+    text-align: center;
+    background-color: rgb(250, 229, 255);
+}
+
+.contact h1{
+    font-family: Bebas Neue;
+    font-size: 58px;
+    padding: 10px;
+}
+
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap:20px;
+    padding: 0 0 30px 0;
+}
+
+.contact-details form{
+    margin: 0 auto;
+    width:500px;
+
+}
+
+.form-control{
+    outline: none;
+    width:100%;
+    padding:15px;
+    border-radius: 8px;
+    border:1px solid rgb(164, 164, 164);
+    margin:5px;
+    font-size: 18px;
+}
+
+.contact-details button{
+    padding:15px;
+    border-radius: 25px;
+    border: none;
+    width: 100%;
+    color: #fff;
+    font: 20px Mulish ;
+    background-color: rgb(223, 69, 215);
+    transition: all;
+}
+
+.contact-details button:hover{
+    background-color: rgb(243, 60, 234);
+}
+
+.tx{
+    padding-bottom: 150px;
+}
+
+.tx:placeholder-shown{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* --------------------Footer--------------------- */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding:10px 50px;
+}
+
+.footer-text{
+    padding: 0px 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-text img{
+    width:200px;
+    height:70px;
+    margin-bottom: 50px;
+}
+
+.footer-text p {
+    padding: 0px 100px 0px 20px;
+    font-size: 23px;
+    font-family: Mulish;
+    
+}
+
+.footer-contact{
+    margin: 0px 30px;
+  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.footer-contact h5{
+    font-size: 30px;
+    font-family: Bebas Neue;
+    margin-bottom: 10px;
+}
+
+.footer-contact ul{
+    list-style: none;
+   
+}
+
+.footer-contact ul li{
+    font-family: Mulish;
+    display: flex;
+    align-items: center;
+}
+
+.footer-contact ul li a{
+   color: black;
+}
+
+.icon{
+    margin:10px;
+}
+
+
+
+/*-------------------Internships-------------- */
+
+.Intern-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Intern-head h1{
+    font-size: 60px;
+    font-family: Bebas neue;
+    color:rgba(0, 0, 0, 0.7);
+    font-weight: 700;
+}
+
+/* -------------------About intern---------------------- */
+
+.about-intern{
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    background-color: rgb(250, 229, 255);
+}
+
+.about-intern img{
+    width:450px;
+}
+
+.text-intern{
+    padding: 0px 70px;
+}
+
+.text-intern p{
+    font-family: Mulish;
+    margin-top: 20px;
+}
+
+.text-intern .stat-txt h1{
+    font-size: 40px;
+    font-family: Bebas neue;
+    color: black;
+}
+
+.text-intern .dynamic-text{
+    margin:0px;
+    line-height: 40px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.dynamic-text li{
+    list-style: none;
+    color:#D367CD;
+    font-size: 40px;
+    font-family: Bebas Neue;
+    position: relative;
+ }
+
+ .dynamic-text li::after{
+    content: "";
+    position:absolute;
+    left:0;
+    height: 100%;
+    width:100%;
+    background-color:rgb(250, 229, 255);
+    border-left: 2px solid #D367CD;
+    animation: typing 3s steps(9) infinite;
+ }
+
+ @keyframes typing{
+    40%,60%{
+        left:calc(15% + 50px);
+    }
+    100%{
+        left:0;
+    }
+ }
+
+ /*----------------------card component---------------- */
+.card-header{
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 20px;
+    margin: 20px 0px 30px 0px;
+}
+
+ .card-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding:0px 40px;
+    gap:20px;
+}
+
+.card{
+    box-shadow: 0px 0px 12px 0px grey;
+    width:310px;
+    /* height: 375px; */
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.card-img img{
+    width:255px;
+    height: 190px;
+}
+
+/*--------------------Inside Card--------------------------*/
+
+.intern-type{
+    padding:10px 0px 0px 20px;
+    font-family: Bebas Neue;
+    color:rgba(0, 0, 0, 0.7);
+}
+
+.intern-title{
+    padding:10px 10px 0px 20px;
+    font-family: Mulish;
+    font-size: 15px;
+    color:rgba(0, 0, 0, 0.7);
+}
+
+.intern-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    gap:20px;
+    flex-grow: 1;
+}
+
+.intern-btn button{
+    padding:15px 40px;
+    border-radius: 8px;
+    font-family:Mulish;
+    border:none;
+    color:white;
+    background-color:rgb(186, 70, 180);
+    box-shadow: 0px 0px 10px 0px rgb(239, 127, 233) ;
+    transition: all 0.3s ease;
+}
+
+.intern-btn button:hover{
+    background-color:rgb(207, 64, 200);
+    transform: scaleX(1.1);
+}
+
+/*----------------view-details--------------------- */
+
+.view-details{
+    width: 250px;
+    height: 350px;
+}
